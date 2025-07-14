@@ -1,3 +1,6 @@
+//import { NavigationBlockerProvider } from "./contexts/navigation-blocker";
+import ThemeProvider from "./theme-provider";
+
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +8,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {/**<NavigationBlockerProvider>{children}</NavigationBlockerProvider> */}
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
     </html>
   );
 }
