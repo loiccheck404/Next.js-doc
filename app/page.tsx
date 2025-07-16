@@ -25,19 +25,7 @@ export default function Page() {
         <p>This is a modal content.</p>
         <Link href="/">Close</Link>
       </Modal>
-      <Image src="null" alt="" width={500} height={500} />
-      <Image
-        src="/profile.png"
-        alt="Picture of the author"
-        width={500}
-        height={500}
-      />
-      <Image
-        src="https://s3.amazonaws.com/my-bucket/profile.png"
-        alt="Picture of the author"
-        width={500}
-        height={500}
-      />
+      <p>Robboto roboto ehh</p>
     </>
     //<BaseButton className={styles.primary} />
   );
